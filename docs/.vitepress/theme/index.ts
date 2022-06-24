@@ -6,9 +6,13 @@ import 'vitepress-theme-demoblock/theme/styles/index.css'
 import '/public/css/index.css'
 // 导入插件的主题
 import { registerComponents } from './register-components.js'
+import Layout from './Layout.vue'
+import NotFound from './NotFound.vue'
 
 export default {
   ...Theme,
+  Layout,
+  NotFound,
   enhanceApp({ app }) {
     registerComponents(app)
   }

@@ -1,0 +1,6 @@
+---
+layout: MyLayout  
+
+---
+
+# hahh MyLayout

@@ -1,0 +1,11 @@
+{
+  "miniuser": "gh_744d2ebca056",
+  "package": "Sign:WXPay",
+  "minipath": "pages/appPay/index",
+  "appid": "wx2d95e9d002ae33eb",
+  "sign": "9F338661C4151181CDB3515152313821",
+  "partnerid": "504248583",
+  "prepayid": "ori:13EA202204080952549841250629",
+  "noncestr": "dOxnJgfqvFDjZGKWuupgrSnVrLnhJZFR",
+  "timestamp": "20220408095254"
+}
