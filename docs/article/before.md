@@ -1,7 +1,6 @@
 ---
 layout: "doc"
 title: markdown语法和写法！
-
 ---  
 
 <script setup>
@@ -68,5 +67,3 @@ This is a dangerous warning.
 ## 组件导入和使用  
 
 <v-demo></v-demo>
-  
-

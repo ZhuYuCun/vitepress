@@ -1,21 +1,21 @@
 <template>
   <div>
     <Layout>
-        <template #aside-top>
-          My custom sidebar top content
+        <template #doc-before>
+          666
         </template>
-        <!-- <Content/> -->
+        <div class="content-wrap">
+          <Content/>
+        </div>
+        <template #doc-after>
+          777
+        </template>
     </Layout>
   </div>
-  <!-- <div>
-    <h2>1234234123</h2>
-    <Content/>
-  </div> -->
 </template>
 <script lang="ts">
 import { defineComponent, reactive, toRefs } from "vue";
 import Theme from 'vitepress/dist/client/theme-default'
-
 
 export default defineComponent({
   components: {
@@ -29,9 +29,18 @@ export default defineComponent({
   },
   mounted() {
     console.log('123', Theme);
-    console.log('layout', Theme.Layout);
-    console.log('$frontmatter', this.$frontmatter);
+    // console.log('layout', Theme.Layout);
+    // console.log('$frontmatter', this.$frontmatter);
   },
   methods: {}
 });
 </script>
+
+<style scoped>
+  .content-wrap{
+    width: 500px;
+  }
+  .debug{
+    display: none !important;
+  }
+</style>
